@@ -1,9 +1,5 @@
 # Aprendizado Supervisionado
 
-#### **Luiz Fernando da Costa Pereira, RA: 2159660**
-
-### Atividade 1
-
 O algoritmo escolhido foi o ***Random Forest*** modelado a partir de uma base de dados de diagnósticos de câncer de mama do pacote ```scikit-learn``` [[Documentação](https://archive.ics.uci.edu/dataset/17/breast+cancer+wisconsin+diagnostic)]. O objetivo é classificar se o câncer é Benigno ou Maligno.
 
 O programa ```RandomForest.py``` treina e testa o modelo, além de gerar um diagrama das três primeiras *Decision Trees* (apenas os dois primeiros níveis) por meio do pacote ```graphviz```, e imprime na saída alguns fatores de análise como acurácia, precisão e desvio padrão.
